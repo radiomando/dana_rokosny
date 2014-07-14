@@ -5,23 +5,23 @@ body{
 	min-width: 1000px;
 }
 
-
 #wrap{
 	font-family: georgia;
 	width: 1020px;
   	margin: 0 auto;
   	min-width: 1000px;
-
 }
 
 .clearfix  {
   zoom: 1;
 }
+
 .clearfix:before, .clearfix:after {
   display: table;
   content: "";
   zoom: 1;
 }
+
 .clearfix:after {
   clear: both;
 }
@@ -71,7 +71,6 @@ a:hover{
 	color:#8699A1;
 }
 
-
 #content{
 	width: 990px;
 	margin-left: auto;
@@ -86,12 +85,58 @@ a:hover{
 	margin-right: auto;
 }
 
+#studio_content{
+	/*float: left;*/
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;	
+}
+
+#left_panel{
+	width: 510px;
+	float: left;
+}
 
 
+#right_panel{
+	width: 480px;
+	float: right;
+}
 
 
+#content.studio{
+	border: solid 3px;
+	padding: 5px 20px 10px 20px;
+	width: 948px;
+	margin-top: 40px
+}
 
+.links{
+	border: solid 3px;
+	padding: 5px 20px 10px 20px;
+	width: 948px;
+	margin-top: 40px
+}
+.links li{
+	list-style-type: none;
+	padding:5px;
 
+}
+
+.links ul{
+	width:300px;
+	display: inline-block;
+}
+
+.links img{
+	float:right;
+	position: relative;
+	width: 400px;
+	top: 30px;
+	right: 45px;
+
+}
 
 /*h3 {
 	font-family: georgia;
@@ -101,20 +146,14 @@ a:hover{
 }*/
 
 .form {
-	width: 700px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 384px;
+	float: right;
 }
-.content{
-	width: 700px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 30px;	
-	margin-top: 30px;
-}
+
 
 .photoright{
 	float:right;
+	width: 300px;
 	padding: 0px 0px 20px 20px;
 }
 
@@ -132,13 +171,13 @@ a:hover{
 	bottom:27px;
 }
 
-/*#calendar{
+#calendar{
 	position: relative;
-	width: 700px;
-	height: 800px;
+	width: 800px;
+	height: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 25px;
-
-	
-}*/
+	border: solid 3px;
+	padding: 15px 95px 10px 95px;
+}
