@@ -1,7 +1,7 @@
 <!DOCTYPE CSS>
 
 body{
-	font-family: georgia;
+	font-family: gefofoorgia;
 	min-width: 1000px;
 }
 
@@ -33,9 +33,7 @@ body{
 
 .title {
 	display:inline;
-	/*float: left;*/
 	color: #515C61;
-	/*font-size: 10px;*/
 	position: relative;
 	top: 15px;
 }
@@ -72,10 +70,18 @@ a:hover{
 }
 
 #content{
+	display: inline-block;
 	width: 990px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;	
+	margin-bottom: 30px;
+	position: relative;
+	left: 12px;	
+}
+
+#media{
+	height: 296px;
+	border: solid 3px;
 }
 
 .pictures{
@@ -85,17 +91,10 @@ a:hover{
 	margin-right: auto;
 }
 
-#studio_content{
-	/*float: left;*/
-	width: 700px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 30px;	
-}
-
 #left_panel{
 	width: 510px;
 	float: left;
+	display: inline-block;
 }
 
 
@@ -108,8 +107,14 @@ a:hover{
 #content.studio{
 	border: solid 3px;
 	padding: 5px 20px 10px 20px;
+	margin-right: auto;
+	margin-left: auto;
 	width: 948px;
 	margin-top: 40px
+}
+
+.studio a{
+	text-decoration: underline;
 }
 
 .links{
@@ -135,22 +140,31 @@ a:hover{
 	width: 400px;
 	top: 30px;
 	right: 45px;
-
 }
-
-/*h3 {
-	font-family: georgia;
-	font-size: 20px;
-	font-style: none;
-	font-weight: none;
-}*/
 
 .form {
 	width: 384px;
 	float: right;
 }
 
+.form form{
+	position: relative;
+	bottom: 10px;
+}
 
+.form p {
+	font-size: 14px;
+}
+.form p:nth-child(3){
+	color: red;
+	position: relative;
+	bottom: 10px;
+} 
+
+.red{
+	color: red;
+	size: 8px;
+}
 .photoright{
 	float:right;
 	width: 300px;
@@ -180,4 +194,15 @@ a:hover{
 	margin-top: 25px;
 	border: solid 3px;
 	padding: 15px 95px 10px 95px;
+}
+
+#footer{
+	text-align: right;
+	display: block;
+	clear: both;
+	position: relative;
+	bottom: 30px;
+	font-size: 14px;
+	color: #515C61;
+	right: 14px;
 }
